@@ -27,6 +27,8 @@ function startGame() {
 // 첫 장면 예시
 function showScene() {
   const story = document.getElementById("story");
-  story.innerText = `안녕하세요, ${character.name}님! 선택한 성격은 ${character.personality}, MBTI는 ${character.mbti}입니다. 게임 시작!`;
+  story.innerText = `안녕하세요, ${character.name}님!
+선택한 성격: ${character.personality}, MBTI: ${character.mbti}.
+괴담 속 세계로 들어갈 준비가 되셨습니다...`;
 }
 
