@@ -29,6 +29,5 @@ function showScene() {
   const story = document.getElementById("story");
   story.innerText = `안녕하세요, ${character.name}님!
 선택한 성격: ${character.personality}, MBTI: ${character.mbti}.
-괴담 속 세계로 들어갈 준비가 되셨습니다...`;
+부디 살아남으실 수 있기를...`;
 }
-
