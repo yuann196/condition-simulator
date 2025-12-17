@@ -1,0 +1,46 @@
+<div id="startScreen">
+  <h2>캐릭터 생성</h2>
+
+  <p>
+    이름:
+    <input id="nameInput" placeholder="이름 입력">
+  </p>
+
+  <p>
+    성별:
+    <select id="genderInput">
+      <option value="female">여성</option>
+      <option value="male">남성</option>
+      <option value="other">기타</option>
+    </select>
+  </p>
+
+  <p>
+    성격:
+    <select id="personalityInput">
+      <option value="careful">신중함</option>
+      <option value="bold">대담함</option>
+    </select>
+  </p>
+
+  <p>
+    MBTI:
+    <select id="mbtiInput">
+      <option value="INTJ">INTJ</option>
+      <option value="INFJ">INFJ</option>
+      <option value="ENFP">ENFP</option>
+      <option value="ISTP">ISTP</option>
+    </select>
+  </p>
+
+  <button onclick="startGame()">시작하기</button>
+</div>
+
+<hr>
+
+<div id="gameScreen" style="display:none;">
+  <p id="story"></p>
+
+  <button onclick="chooseA()">선택 A</button>
+  <button onclick="chooseB()">선택 B</button>
+</div>
