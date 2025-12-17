@@ -3,6 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <title>괴담 시뮬레이션</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1a1a1a;
+      color: #f0f0f0;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin-top: 50px;
+      font-size: 36px;
+      color: #ff5555;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #ff8888;
+    }
+
+    input, select {
+      padding: 8px;
+      margin: 5px;
+      border-radius: 5px;
+      border: 1px solid #555;
+      background-color: #333;
+      color: #f0f0f0;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 15px;
+      background-color: #ff5555;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background-color: #ff7777;
+    }
+
+    #startScreen {
+      margin-top: 40px;
+    }
+
+    #gameScreen {
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
 
@@ -27,18 +82,33 @@
     <p>
       성격:
       <select id="personalityInput">
-        <option value="careful">신중함</option>
-        <option value="bold">대담함</option>
+        <option value="careful">신중</option>
+        <option value="bold">대담</option>
+        <option value="anxious">불안</option>
+        <option value="apathetic">무감각</option>
+        <option value="madness">광기</option>
       </select>
     </p>
 
     <p>
       MBTI:
       <select id="mbtiInput">
-        <option value="INTJ">INTJ</option>
+        <option value="ISTJ">ISTJ</option>
+        <option value="ISFJ">ISFJ</option>
         <option value="INFJ">INFJ</option>
-        <option value="ENFP">ENFP</option>
+        <option value="INTJ">INTJ</option>
         <option value="ISTP">ISTP</option>
+        <option value="ISFP">ISFP</option>
+        <option value="INFP">INFP</option>
+        <option value="INTP">INTP</option>
+        <option value="ESTP">ESTP</option>
+        <option value="ESFP">ESFP</option>
+        <option value="ENFP">ENFP</option>
+        <option value="ENTP">ENTP</option>
+        <option value="ESTJ">ESTJ</option>
+        <option value="ESFJ">ESFJ</option>
+        <option value="ENFJ">ENFJ</option>
+        <option value="ENTJ">ENTJ</option>
       </select>
     </p>
 
